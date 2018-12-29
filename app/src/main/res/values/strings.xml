@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">myNotes</string>
+
+    <!--Navigation bar title-->
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_homepage">Home</string>
+
+    <!--other strings-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--strings for fragments created-->
+    <string name="overview_fragment">Overview</string>
+    <string name="overview_notes">Notes</string>
+    <string name="overview_calendar">Calendar</string>
+    <string name="overview_reminders">Reminders</string>
+    <string name="overview_gallery">Gallery</string>
+    <string name="overview_documents">Documents</string>
+    <string name="overview_archives">Archives</string>
+    <string name="overview_help">Help &amp; Feedback</string>
+    <string name="overview_settings">Settings</string>
+    <string name="overview_logout">Logout</string>
+
+
+</resources>

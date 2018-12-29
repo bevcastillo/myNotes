@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#60495A</color>
+    <color name="colorPrimaryDark">#554145</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--other colors used in this app-->
+    <color name="colorGray">#808080</color>
+    <color name="color1">#A9ACA9</color>
+    <color name="color2">#BFC3BA</color>
+    <color name="colorMayaBlue">#69DDFF</color>
+    <color name="colorLightSkyBlue">#96CDFF</color>
+    <color name="colorPaleLavender">#D8E1FF</color>
+    <color name="colorThistle">#DBBADD</color>
+    <color name="colorTuscany">#BE92A2</color>
+
+    <!--basic colors-->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGreen">#00ff00</color>
+    <color name="colorBlue">#0000ff</color>
+
+    <color name="colorOliveDrab">#3D3522</color>
+    <color name="colorTaupe">#4A442D</color>
+    <color name="colorHunterGreen">#386150</color>
+    <color name="colorPolishedPine">#58B09C</color>
+    <color name="colorAeroBlue">#CAF7E2</color>
+
+    <color name="colorMidnightGreen">#114B5F</color>
+    <color name="colorMetallicSeaweed">#028090</color>
+    <color name="colorNyanza">#E4FDE1</color>
+    <color name="colorQueenBlue">#456990</color>
+    <color name="colorFieryRose">#F45B69</color>
+
+
+</resources>
