@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">myNotes</string>
+    <string name="app_name">leafNote</string>
 
-    <!--Navigation bar title-->
+    <!--App bar title-->
     <string name="title_login">Login</string>
     <string name="title_register">Register</string>
     <string name="title_homepage">Home</string>
+    <string name="title_add">Edit Note</string>
 
     <!--other strings-->
     <string name="open">Open</string>

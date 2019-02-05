@@ -9,6 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "myNotesDB.db";
+
+    //user_table
     public static final String TABLE_NAME = "user_table";
     public static final String COL_1 = "user_ID";
     public static final String COL_2 = "user_lastname";
@@ -16,6 +18,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_4 = "user_username";
     public static final String COL_5 = "user_email";
     public static final String COL_6 = "user_password";
+
+    //usernote_table
+    public static final String TABLE1_NAME = "usernote_table";
+    public static final String USER_1 = "note_ID";
+    public static final String USER_2 = "note_date";
+    public static final String USER_3 = "note_title";
+    public static final String USER_4 = "note_description";
+
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);

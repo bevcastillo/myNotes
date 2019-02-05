@@ -8,14 +8,9 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@+id/overview"
-            android:icon="@drawable/ic_home"
-            android:title="Overview" />
-
-        <item
             android:id="@+id/notes"
-            android:icon="@drawable/notesicon1"
-            android:title="Notes" />
+            android:icon="@drawable/ic_pencil"
+            android:title="My Notes" />
 
         <item
             android:id="@+id/cal"
@@ -23,27 +18,8 @@
             android:title="Calendar" />
         <item
             android:id="@+id/rem"
-            android:icon="@drawable/remindersicon2"
+            android:icon="@drawable/ic_notifs"
             android:title="Reminders" />
-    </group>
-
-    <group
-        android:id="@+id/menu_center"
-        android:checkableBehavior="none">
-
-        <item
-            android:id="@+id/img"
-            android:icon="@drawable/ic_photogallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/docs"
-            android:icon="@drawable/ic_folder"
-            android:title="Documents" />
-        <item
-            android:id="@+id/arch"
-            android:icon="@drawable/ic_archive"
-            android:title="Archives" />
-
     </group>
 
     <group

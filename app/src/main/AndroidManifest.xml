@@ -32,7 +32,11 @@
         <activity
             android:name=".UserHome"
             android:label="@string/title_homepage" />
-        <activity android:name=".Overview"></activity>
+        <activity android:name=".Overview" />
+        <activity android:name=".AddActivity"
+            android:label="@string/title_add"/>
+
+
     </application>
 
 </manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#60495A</color>
-    <color name="colorPrimaryDark">#554145</color>
+    <color name="colorPrimary"> #7cb342 </color>
+    <color name="colorPrimaryDark"> #689f38 </color>
     <color name="colorAccent">#D81B60</color>
 
     <!--other colors used in this app-->
@@ -32,6 +32,9 @@
     <color name="colorNyanza">#E4FDE1</color>
     <color name="colorQueenBlue">#456990</color>
     <color name="colorFieryRose">#F45B69</color>
+
+    <color name="colorLightGreen">#dcedc8</color>
+    <color name="colorverylightgreen">#f1f8e9</color>
 
 
 </resources>

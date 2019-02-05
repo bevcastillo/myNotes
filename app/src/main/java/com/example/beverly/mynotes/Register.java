@@ -36,7 +36,7 @@ public class Register extends AppCompatActivity {
         onLogin();
 
         //call the hide-navigation bar created
-        hideNavigationBar();
+        //hideNavigationBar();
     }
 
     public void onRegister(){
@@ -93,25 +93,5 @@ public class Register extends AppCompatActivity {
                 startActivity(toLogin);
             }
         });
-    }
-
-    /// hide the navigation bar
-    @Override
-    protected void onResume(){
-        super.onResume();
-
-        hideNavigationBar();
-    }
-
-    public void hideNavigationBar(){
-        this.getWindow().getDecorView()
-                .setSystemUiVisibility(
-                        View.SYSTEM_UI_FLAG_FULLSCREEN |
-                                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
-                                View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY |
-                                View.SYSTEM_UI_FLAG_FULLSCREEN |
-                                View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION |
-                                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                );
     }
 }
